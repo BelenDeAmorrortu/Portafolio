@@ -96,6 +96,7 @@
         
         display: flex;
         justify-self: flex-start;
+        height: 100%;
     }
 
     .nav_container nav ul{

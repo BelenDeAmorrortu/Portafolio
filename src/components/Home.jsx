@@ -6,7 +6,7 @@ export default function Home({passRef}){
 
     return(
 
-        <section id='home' ref={passRef}>
+        <section ref={passRef}>
 
             <div className="home">
 
@@ -17,7 +17,6 @@ export default function Home({passRef}){
 
 
             </div>
-
 
         </section>
 

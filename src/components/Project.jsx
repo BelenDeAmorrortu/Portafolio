@@ -10,7 +10,6 @@ export default function Project( {name, img, codeUrl, projectUrl} ){
             {/* <img src={img} alt={`${name} preview`}/> */}
 
             <div className="image_container"  style={{backgroundImage: `url(${img})`}}>
-
                     
                 <div className="buttons_container">
 
@@ -25,8 +24,8 @@ export default function Project( {name, img, codeUrl, projectUrl} ){
 
             <div className="buttons_container_responsive">
 
-                <a href={projectUrl}><button>View Project</button></a>
-                <a href={codeUrl}><button>View Code</button></a>
+                <a href={projectUrl} target='_blank'><button>View Project</button></a>
+                <a href={codeUrl} target='_blank'><button>View Code</button></a>
 
             </div> 
             
