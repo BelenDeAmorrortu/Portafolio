@@ -1,0 +1,138 @@
+
+.project_container{
+
+    width: 100%;
+    height: 100% ;
+
+    display: flex;
+
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    color: #5465ff;
+    transition: all 0.2s linear;
+
+}
+
+.project_container:hover{
+
+    filter: drop-shadow(0 0 4px #5465ff);
+    color: #fff;
+    transform: scale(1.02);
+}
+
+.project_container h4{
+
+    font-size: 1.3vw;
+    margin: 0;
+    padding: 2%;
+}
+
+.project_container .image_container{
+
+    width: 65%;
+    height: 20vh;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    display: flex;
+    border-radius: 10px;
+
+}
+
+.project_container .buttons_container{
+
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+
+    background-color: #161032be;
+    border-radius: 10px;
+    opacity: 0;
+    transition: opacity 0.2s linear;
+}
+
+.image_container:hover .buttons_container{
+
+    opacity: 1;
+}
+
+.project_container button{
+
+    display: inline;
+    background-color: #5465ff;
+    border: none;
+    border-radius: 8px;
+    color: #fff;
+    padding: 6px 20px;
+    height: 5vh;
+    font-size: 1vw;
+    transition: background 0.1s linear;
+}
+
+.project_container button:hover{
+
+    background-color: #161032;
+}
+
+.project_container a{
+
+    text-decoration: none;
+}
+
+.buttons_container_responsive{
+
+    visibility: hidden;
+}
+
+@media screen and (max-width: 800px) {
+
+    .project_container .image_container{
+
+        width: 80%;
+    
+    }
+
+    .project_container button{
+
+        font-size: 1.7vw;
+    }
+    
+    .project_container h4{
+    
+        font-size: 3vw;
+    }
+    
+    
+}
+
+@media screen and (max-width: 450px){
+
+    .buttons_container{
+
+        visibility: hidden;
+    }
+
+    .buttons_container_responsive{
+
+        visibility: visible;
+        width: 80%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .project_container button{
+
+        height: 3.5vh;
+        font-size: 2.3vw;
+        padding: 0px 8px;
+    }
+
+
+    
+}
