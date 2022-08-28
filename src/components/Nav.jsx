@@ -14,8 +14,9 @@ export default function Nav(){
                     <li id='homeLi'>Home</li>
                     <li id='projectsLi'>Projects</li>
                     <li id='skillsLi'>{'Skills & Tools'}</li>
-                    <li id='aboutMe'>About Me</li>
-                    <li>Contact</li>
+                    <li id='aboutMeLi'>About Me</li>
+                    <li id='experienceLi'>Experience</li>
+                    <li id='contactLi'>Contact</li>
             
             
                 </ul>
@@ -23,7 +24,7 @@ export default function Nav(){
         
             </nav>
 
-            <button>Portafolio's Code</button>
+            <a href='https://github.com/BelenDeAmorrortu/Portafolio' target={'_blank'}><button>Portafolio's Code</button></a>
 
         </div>
     )

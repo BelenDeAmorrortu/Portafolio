@@ -1,5 +1,5 @@
 
-#sparks_container{
+.sparks_container{
 
     position: fixed;
     top:0;
@@ -9,7 +9,7 @@
     
 }
 
-#sparks{
+.sparks{
 
     position: relative;
     display: flex;
@@ -17,7 +17,7 @@
 
 }
 
-#sparks span{
+.sparks span{
 
     position: relative;
     min-width: 3vw;
@@ -48,7 +48,7 @@
 
 } */
 
-#sparks span:nth-child(even){
+.sparks span:nth-child(even){
 
     background: linear-gradient(140deg, /*#8980F5*/ #5969fe, #3541af);
 
@@ -69,7 +69,7 @@
 
 @media screen and (max-width: 750px){
 
-    #sparks span{
+    .sparks span{
 
         min-width: 7vw;
         height: 7vw;

@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, useRef } from 'react';
 import './App.css';
 import Nav from './components/Nav.jsx'
 import Background from './components/Background.jsx'
@@ -7,6 +7,7 @@ import Home from './components/Home';
 import Languages from './components/Languages.jsx';
 import Projects from './components/Projects';
 import { useInView } from 'react-intersection-observer';
+import About from './components/About';
 
 
 function App() {
@@ -15,6 +16,8 @@ function App() {
   const { ref: projects, inView: projectIsVisible } = useInView({threshold: 0.5})
   const { ref: home, inView: homeIsVisible } = useInView({threshold: 0.5})
   const { ref: aboutMe, inView: aboutMeIsVisible } = useInView({threshold: 0.5})
+  const { ref: experience, inView: experienceIsVisible } = useInView({threshold: 0.5})
+  const { ref: contact, inView: contactIsVisible } = useInView({threshold: 0.5})
 
   
   useEffect(()=>{
@@ -22,7 +25,9 @@ function App() {
     let homeLi = document.querySelector('#homeLi')
     let projectLi = document.querySelector(`#projectsLi`)
     let skillsLi = document.querySelector('#skillsLi')
-    let aboutMe = document.querySelector('#aboutMe')
+    let aboutMeLi = document.querySelector('#aboutMeLi')
+    let experienceLi = document.querySelector('#experienceLi')
+    let contactLi = document.querySelector('#contactLi')
     let borderStyle = '2px solid #f5f5f5'
 
     if(homeIsVisible) homeLi.style.borderBottom = borderStyle
@@ -34,10 +39,16 @@ function App() {
     if(skillsIsVisible) skillsLi.style.borderBottom = borderStyle
     else skillsLi.style.borderBottom = 'none'
 
-    if(aboutMeIsVisible) aboutMe.style.borderBottom = borderStyle
-    else aboutMe.style.borderBottom = 'none'
+    if(aboutMeIsVisible) aboutMeLi.style.borderBottom = borderStyle
+    else aboutMeLi.style.borderBottom = 'none'
     
-  }, [skillsIsVisible, projectIsVisible, homeIsVisible, aboutMeIsVisible]) 
+    if(experienceIsVisible) experienceLi.style.borderBottom = borderStyle
+    else experienceLi.style.borderBottom = 'none'
+
+    if(contactIsVisible) contactLi.style.borderBottom = borderStyle
+    else contactLi.style.borderBottom = 'none'
+
+  }, [skillsIsVisible, projectIsVisible, homeIsVisible, aboutMeIsVisible, experienceIsVisible, contactIsVisible]) 
   
   return (
 
@@ -51,8 +62,9 @@ function App() {
         <Home passRef={home}/>
         <GlassContainer title={'Projects'} content={<Projects />}  passRef={projects} />
         <GlassContainer title={'Technical Skills & Tools'} content={<Languages />} id='technical_skills_and_tools' passRef={techSkillsandTools} />
-        <GlassContainer title={'About Me'} content={null} id='about_me' passRef={aboutMe} />
- 
+        <GlassContainer title={'About Me'} content={<About />} id='about_me' passRef={aboutMe} />
+        <GlassContainer title={'Experience'} content={null} id='experience' passRef={experience} />
+        <GlassContainer title={'Contact'} content={null} id='contact' passRef={contact} />
 
       </main>
 

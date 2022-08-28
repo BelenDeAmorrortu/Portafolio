@@ -16,6 +16,11 @@ import VSCode from '../img/VSCode.png'
 import Express from '../img/express.png'
 import Sass from '../img/Sass.png'
 import Json from '../img/Json.png'
+import PostgreSQL from '../img/Postgresql.png'
+import Sequelize from '../img/Sequelize.png'
+import Postman from '../img/Postman.png'
+import RESTfulAPI from '../img/RESTfulAPI.png'
+
 
 export default function Languages(){
 
@@ -37,6 +42,12 @@ export default function Languages(){
             <Language name='Less' img={Less} />
             <Language name='Bootstrap' img={Bootstrap} />
             <Language name='VS Code' img={VSCode} />
+            <Language name='PostgreSQL' img={PostgreSQL} />
+            <Language name='Sequelize' img={Sequelize} />
+            <Language name='Postman' img={Postman} />
+            <Language name='REST API' img={RESTfulAPI} />
+
+
 
 
 
