@@ -9,6 +9,7 @@ import Projects from './components/Projects';
 import { useInView } from 'react-intersection-observer';
 import About from './components/About';
 import Experience from './components/Experience';
+import Contact from './components/Contact';
 
 
 function App() {
@@ -62,10 +63,10 @@ function App() {
 
         <Home passRef={home}/>
         <GlassContainer title={'Projects'} content={<Projects />}  passRef={projects} />
-        <GlassContainer title={'Technical Skills & Tools'} content={<Languages />} id='technical_skills_and_tools' passRef={techSkillsandTools} />
-        <GlassContainer title={'About Me'} content={<About />} id='about_me' passRef={aboutMe} />
+        <GlassContainer title={'Technical Skills & Tools'} content={<Languages />} passRef={techSkillsandTools} />
+        <GlassContainer title={'About Me'} content={<About />} passRef={aboutMe} />
         <GlassContainer title={'Experience'} content={<Experience />} id='experience' passRef={experience} />
-        <GlassContainer title={'Contact'} content={null} id='contact' passRef={contact} />
+        <GlassContainer title={'Contact'} content={<Contact />} id='contact' passRef={contact} />
 
       </main>
 

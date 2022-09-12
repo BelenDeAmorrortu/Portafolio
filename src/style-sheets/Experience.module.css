@@ -27,7 +27,7 @@
     justify-content: flex-start;
 }
 
-.img_and_title img{
+.experience_container img{
 
     width: 3vw;
     height: 3vw;
@@ -35,7 +35,7 @@
     margin: 0 2vw 0 1vw;
 }
 
-.experience_container h4{
+.img_and_title h4{
 
     color: #5465ff;
     font-size: 1.5vw;
@@ -66,4 +66,103 @@
     display: flex;
     flex-direction: column;
 
+}
+
+.education div{
+
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+.education .title{
+
+    color: #5465ff;
+    font-weight: 600;
+    font-size: 1.5vw;
+}
+
+.education h4{
+
+    color: #fff;
+    width: 100%;
+    font-weight: 400;
+    padding-right: 1vw;
+    text-align: center;
+}
+
+@media screen and (max-width: 450px) {
+
+    .experience_container{
+
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .experience_container img{
+
+        width: 7vw;
+        height: 7vw;
+
+    }
+
+    .experience{
+
+        width: 100%;
+        height: fit-content;
+
+    }
+
+    .experience ul li{
+
+        font-size: 3vw;
+        margin-bottom: 1vw;
+    }
+
+    .experience ul{
+
+        margin-bottom: 6vh;
+    }
+
+    .img_and_title h4{
+
+        font-size: 3.4vw;
+    }
+
+    
+    .education{
+
+        width: 100%;
+        height: fit-content;
+        flex-direction: column;
+        box-shadow: -5px 5px 0 0 #5465ff;
+
+    }
+
+    .education div{
+
+        margin-left: 7vw;
+        width: fit-content;
+
+    }
+
+    .education h4{
+
+        font-size: 3vw;
+        text-align: left;
+
+    }
+
+    .education .title{
+
+        font-size: 4vw;
+        text-align: center;
+        padding: 0vw;
+        margin: 1vw;
+    }
+
+
+    
 }

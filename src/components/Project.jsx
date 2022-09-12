@@ -7,7 +7,6 @@ export default function Project( {name, img, codeUrl, projectUrl} ){
 
         <div className="project_container">
 
-            {/* <img src={img} alt={`${name} preview`}/> */}
 
             <div className="image_container"  style={{backgroundImage: `url(${img})`}}>
                     

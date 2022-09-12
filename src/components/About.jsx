@@ -5,9 +5,9 @@ export default function About() {
 
     return (
 
-        <div className={style.about_container}>
+        <div className={style.about_container}  id='about_me'>
 
-            <p>Hi! My name is <span>Belén de Amorrortu</span>.</p>
+            <p>Hi! My name is <span>Belén</span>.</p>
             <p>I am an argentinian <span>full stack developer</span> currently seeking a remote job in the tech industry.</p>
 
             <div className={style.description}>

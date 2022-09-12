@@ -4,7 +4,32 @@
     min-height: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    padding-top: 10%;
+
+}
+
+@media screen and (max-width: 450px) {
+
+    .projects_container{
+
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+        padding: 0;
+    
+    }
+    
+}
+
+/*  WHEN THE OTHER PROJECTS ARE DONE
+
+.projects_container{
+
+    width: 100%;
+    min-height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     padding: 0;
 
-}
+} */

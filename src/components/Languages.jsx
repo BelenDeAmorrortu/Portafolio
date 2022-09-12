@@ -26,7 +26,7 @@ export default function Languages(){
 
     return(
 
-        <div className="languages_container">
+        <div className="languages_container"  id='technical_skills_and_tools'>
             <Language name='HTML' img={HTML} />
             <Language name='CSS' img={CSS} />
             <Language name='JavaScript' img={JavaScript} />
@@ -37,7 +37,7 @@ export default function Languages(){
             <Language name='Json' img={Json} />
             <Language name='Git' img={Git} />
             <Language name='GitHub' img={GitHub} />
-            <Language name='Webpack' img={Webpack} />
+            {/* <Language name='Webpack' img={Webpack} /> */}
             <Language name='Sass' img={Sass} />
             <Language name='Less' img={Less} />
             <Language name='Bootstrap' img={Bootstrap} />
@@ -46,10 +46,6 @@ export default function Languages(){
             <Language name='Sequelize' img={Sequelize} />
             <Language name='Postman' img={Postman} />
             <Language name='REST API' img={RESTfulAPI} />
-
-
-
-
 
         </div>
     )

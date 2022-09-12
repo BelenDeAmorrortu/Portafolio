@@ -7,16 +7,18 @@ export default function Nav(){
 
         <div className='nav_container'>
 
+            <h3 id='name' >Belén de Amorrortu</h3>
+
             <nav>
                         
                 <ul>
             
-                    <li id='homeLi'>Home</li>
-                    <li id='projectsLi'>Projects</li>
-                    <li id='skillsLi'>{'Skills & Tools'}</li>
-                    <li id='aboutMeLi'>About Me</li>
-                    <li id='experienceLi'>Experience</li>
-                    <li id='contactLi'>Contact</li>
+                    <li id='homeLi'><a href='#home'>Home</a></li>
+                    <li id='projectsLi'><a href='#projects'>Projects</a></li>
+                    <li id='skillsLi'><a href='#technical_skills_and_tools' >{'Skills & Tools'}</a></li>
+                    <li id='aboutMeLi'><a href='#about_me'>About Me</a></li>
+                    <li id='experienceLi'><a href='#experience'>Experience</a></li>
+                    <li id='contactLi'><a href='#contact'>Contact</a></li>
             
             
                 </ul>
