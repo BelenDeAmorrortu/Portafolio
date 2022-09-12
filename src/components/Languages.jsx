@@ -1,6 +1,6 @@
 import React from "react";
 import Language from './Language.jsx'
-import '../style-sheets/Languages.css'
+import style from '../style-sheets/Languages.module.css'
 import HTML from '../img/HTML.png'
 import CSS from '../img/CSS.png'
 import JavaScript from '../img/JavaScript.png'
@@ -26,7 +26,7 @@ export default function Languages(){
 
     return(
 
-        <div className="languages_container"  id='technical_skills_and_tools'>
+        <div className={style.languages_container}  id='technical_skills_and_tools'>
             <Language name='HTML' img={HTML} />
             <Language name='CSS' img={CSS} />
             <Language name='JavaScript' img={JavaScript} />

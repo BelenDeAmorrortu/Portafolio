@@ -1,16 +1,16 @@
 import React from "react";
-import '../style-sheets/Project.css'
+import style from '../style-sheets/Project.module.css'
 
 export default function Project( {name, img, codeUrl, projectUrl} ){
 
     return(
 
-        <div className="project_container">
+        <div className={style.project_container}>
 
 
-            <div className="image_container"  style={{backgroundImage: `url(${img})`}}>
+            <div className={style.image_container}  style={{backgroundImage: `url(${img})`}}>
                     
-                <div className="buttons_container">
+                <div className={style.buttons_container}>
 
                     <a href={projectUrl} target='_blank'><button>View Project</button></a>
                     <a href={codeUrl} target='_blank'><button>View Code</button></a>
@@ -21,7 +21,7 @@ export default function Project( {name, img, codeUrl, projectUrl} ){
 
             <h4>{name}</h4>
 
-            <div className="buttons_container_responsive">
+            <div className={style.buttons_container_responsive}>
 
                 <a href={projectUrl} target='_blank'><button>View Project</button></a>
                 <a href={codeUrl} target='_blank'><button>View Code</button></a>

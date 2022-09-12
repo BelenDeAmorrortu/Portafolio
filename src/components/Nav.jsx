@@ -1,11 +1,11 @@
 import React from 'react'
-import '../style-sheets/Nav.css'
+import style from '../style-sheets/Nav.module.css'
 
 export default function Nav(){
 
     return(
 
-        <div className='nav_container'>
+        <div className={style.nav_container}>
 
             <h3 id='name' >Belén de Amorrortu</h3>
 
