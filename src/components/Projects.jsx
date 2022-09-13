@@ -16,7 +16,7 @@ export default function Projects(){
 
             
             <div id='project2'>
-                <Project name="Poke-dex" img={Pokemon} codeUrl={'https://www.google.com.ar/'} projectUrl={'https://pokedex-belendeamorrortu.netlify.app'} />
+                <Project name="Poke-dex" img={Pokemon} codeUrl={'https://github.com/BelenDeAmorrortu/Poke-dex'} projectUrl={'https://pokedex-belendeamorrortu.netlify.app'} />
             </div>
 
 {/*          PROJECTS IN PROGRESS

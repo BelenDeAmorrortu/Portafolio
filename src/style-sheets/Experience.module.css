@@ -128,16 +128,18 @@
 
     .img_and_title h4{
 
-        font-size: 3.4vw;
+        font-size: 3.2vw;
     }
 
     
     .education{
 
         width: 100%;
+        position: relative;
         height: fit-content;
         flex-direction: column;
         box-shadow: -5px 5px 0 0 #5465ff;
+        top: -2vh;
 
     }
 
