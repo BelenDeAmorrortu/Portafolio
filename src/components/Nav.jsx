@@ -13,12 +13,12 @@ export default function Nav(){
                         
                 <ul>
             
-                    <li id='homeLi'><a href='#home'>Home</a></li>
-                    <li id='projectsLi'><a href='#projects'>Projects</a></li>
-                    <li id='skillsLi'><a href='#technical_skills_and_tools' >{'Skills & Tools'}</a></li>
-                    <li id='aboutMeLi'><a href='#about_me'>About Me</a></li>
-                    <li id='experienceLi'><a href='#experience'>Experience</a></li>
-                    <li id='contactLi'><a href='#contact'>Contact</a></li>
+                    <li id='homeLi'className='navLi'><a href='#home'>Home</a></li>
+                    <li id='projectsLi' className='navLi'><a href='#projects'>Projects</a></li>
+                    <li id='skillsLi' className='navLi'><a href='#technical_skills_and_tools' >{'Skills & Tools'}</a></li>
+                    <li id='aboutMeLi'className='navLi'><a href='#about_me'>About Me</a></li>
+                    <li id='experienceLi'className='navLi'><a href='#experience'>Experience</a></li>
+                    <li id='contactLi' className='navLi'><a href='#contact'>Contact</a></li>
             
             
                 </ul>

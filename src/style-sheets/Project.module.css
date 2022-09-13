@@ -23,15 +23,18 @@
 
 .project_container h4{
 
-    font-size: 1.3vw;
+    /* font-size: 1.3vw; 4 projects*/
+    font-size: 1.6vw;
     margin: 0;
     padding: 2%;
 }
 
 .project_container .image_container{
 
-    width: 65%;
-    height: 20vh;
+    /* width: 65%;  4 projects*/
+    width: 75%;
+    /* height: 20vh; 4 projects*/
+    height: 23vh;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -90,9 +93,16 @@
 
 @media screen and (max-width: 800px) {
 
+    /*  4 projects
     .project_container .image_container{
 
         width: 80%;
+    
+    } */
+
+    .project_container .image_container{
+
+        width: 50%;
     
     }
 

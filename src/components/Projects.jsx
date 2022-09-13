@@ -11,13 +11,13 @@ export default function Projects(){
         <div className={style.projects_container} id='projects'>
 
             <div id='project1'>
+                <Project name="Poke-dex" img={Pokemon} codeUrl={'https://github.com/BelenDeAmorrortu/Poke-dex'} projectUrl={'https://pokedex-belendeamorrortu.netlify.app'} />
+            </div>
+
+            <div id='project2'>
                 <Project name="Weather App" img={WeatherAppImg} codeUrl={'https://github.com/BelenDeAmorrortu/Weather-App'} projectUrl={'https://weather-app-belendeamorrortu.netlify.app/'} />
             </div>
 
-            
-            <div id='project2'>
-                <Project name="Poke-dex" img={Pokemon} codeUrl={'https://github.com/BelenDeAmorrortu/Poke-dex'} projectUrl={'https://pokedex-belendeamorrortu.netlify.app'} />
-            </div>
 
 {/*          PROJECTS IN PROGRESS
 

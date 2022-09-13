@@ -11,6 +11,12 @@
 .about_container p{
 
     font-size: 2vw;
+    margin-bottom: 6vh;
+}
+
+.about_container p:first-child{
+
+    margin-bottom: 0;
 }
 
 .about_container p span{

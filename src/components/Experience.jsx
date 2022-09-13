@@ -19,7 +19,7 @@ export default function Experience() {
                         <h4>{'Henry Hero (Code Review Lecturer) - Current'}</h4>
                     </div>
                     <ul>
-                        <li>Explaining and analyzing different solutions to JavaScript exercises.</li>
+                        <li>Explaining and analyzing different solutions to JavaScript, HTML and CSS exercises.</li>
                         <li>Answering doubts and questions about the homework.</li>
                         <li>Organizing the lecture with fellow Henry Heroes</li>
                     </ul>

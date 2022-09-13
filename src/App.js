@@ -1,4 +1,4 @@
-import React, { useEffect, useRef } from 'react';
+import React, { useEffect } from 'react';
 import './App.css';
 import Nav from './components/Nav.jsx'
 import Background from './components/Background.jsx'
@@ -10,7 +10,7 @@ import { useInView } from 'react-intersection-observer';
 import About from './components/About';
 import Experience from './components/Experience';
 import Contact from './components/Contact';
-
+import { handleSectionChange } from './components/underlineHandler';
 
 function App() {
 
@@ -24,31 +24,7 @@ function App() {
   
   useEffect(()=>{
     
-    let homeLi = document.querySelector('#homeLi')
-    let projectLi = document.querySelector(`#projectsLi`)
-    let skillsLi = document.querySelector('#skillsLi')
-    let aboutMeLi = document.querySelector('#aboutMeLi')
-    let experienceLi = document.querySelector('#experienceLi')
-    let contactLi = document.querySelector('#contactLi')
-    let borderStyle = '2px solid #f5f5f5'
-
-    if(homeIsVisible) homeLi.style.borderBottom = borderStyle
-    else homeLi.style.borderBottom = 'none'
-
-    if(projectIsVisible) projectLi.style.borderBottom = borderStyle
-    else projectLi.style.borderBottom = 'none'
-
-    if(skillsIsVisible) skillsLi.style.borderBottom = borderStyle
-    else skillsLi.style.borderBottom = 'none'
-
-    if(aboutMeIsVisible) aboutMeLi.style.borderBottom = borderStyle
-    else aboutMeLi.style.borderBottom = 'none'
-    
-    if(experienceIsVisible) experienceLi.style.borderBottom = borderStyle
-    else experienceLi.style.borderBottom = 'none'
-
-    if(contactIsVisible) contactLi.style.borderBottom = borderStyle
-    else contactLi.style.borderBottom = 'none'
+    handleSectionChange(skillsIsVisible, projectIsVisible, homeIsVisible, aboutMeIsVisible, experienceIsVisible, contactIsVisible)
 
   }, [skillsIsVisible, projectIsVisible, homeIsVisible, aboutMeIsVisible, experienceIsVisible, contactIsVisible]) 
   
