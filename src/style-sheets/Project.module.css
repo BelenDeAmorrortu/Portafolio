@@ -145,6 +145,12 @@
         padding: 0px 8px;
     } */
 
+    .project_container .image_container{
+
+        width: 80%;
+    
+    } 
+    
     .project_container button{
 
         height: 3.5vh;
