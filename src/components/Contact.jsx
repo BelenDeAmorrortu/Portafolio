@@ -21,7 +21,9 @@ export default function Contact() {
 
             <div>
                 <img src={Email} alt='Email Logo' />
-                <h3>belendeamorrortu.developer@gmail.com</h3>
+                <a href="mailto:belendeamorrortu.developer@gmail.com">
+                    <h3>belendeamorrortu.developer@gmail.com</h3>
+                </a>
             </div>
 
             <a href='https://linkedin.com/in/belen-de-amorrortu' target='_blank'>
