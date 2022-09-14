@@ -25,12 +25,8 @@
 
 
     border-radius: 50%;
-    /* background: linear-gradient(140deg, #e0f2f1, #00e5ff); */
     background: linear-gradient(140deg, #a2dae6, #458eab);
 
-    /* background: linear-gradient(140deg, #F44174, #d4053f); */
-
-    /* box-shadow: 0 0 15px 7px #f4417442, 0 0 50px #F44174, 0 0 100px #F44174; */
     box-shadow: 0 0 15px 7px #458eab42, 0 0 50px #458eab, 0 0 100px #458eab;
 
     animation: animate 15s linear infinite;
@@ -38,19 +34,9 @@
 
 }
 
-/* #sparks h6{
-
-    position: relative;
-    color: #F44174;
-    font-size: 1vw;
-    animation: animate 15s linear infinite;
-    animation-duration: calc(700s / var(--i));
-
-} */
-
 .sparks span:nth-child(even){
 
-    background: linear-gradient(140deg, /*#8980F5*/ #5969fe, #3541af);
+    background: linear-gradient(140deg, #5969fe, #3541af);
 
     box-shadow: 0 0 15px 10px #5465ff49, 0 0 50px #5465ff, 0 0 100px #5465ff;
 

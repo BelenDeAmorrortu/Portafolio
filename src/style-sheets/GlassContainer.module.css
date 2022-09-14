@@ -28,10 +28,8 @@
 
 .glass_container h3{
 
-    /* color: #F44174; #5465ff */
     color: #a2dae6;
     display: block;
-    /* text-decoration: underline 2px; */
     text-underline-offset: 3px;
     font-stretch: extra-expanded;
     font-size: 2.5vw;
@@ -44,7 +42,6 @@
     width: 100%;
     height: 1px;
     border: none;
-    /* background: #F44174; #5465ff */
     background-color: #a2dae6;
     position: relative;
     margin-bottom: 3vh;
