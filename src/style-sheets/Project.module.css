@@ -32,9 +32,9 @@
 .project_container .image_container{
 
     /* width: 65%;  4 projects*/
-    width: 75%;
+    width: 340px;
     /* height: 20vh; 4 projects*/
-    height: 23vh;
+    height: 160px;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -100,12 +100,6 @@
     
     } */
 
-    .project_container .image_container{
-
-        width: 50%;
-    
-    }
-
     .project_container button{
 
         font-size: 1.7vw;
@@ -129,7 +123,7 @@
     .buttons_container_responsive{
 
         visibility: visible;
-        width: 80%;
+        width: 250px;
         display: flex;
         flex-direction: row;
         justify-content: space-between;
@@ -147,14 +141,15 @@
 
     .project_container .image_container{
 
-        width: 80%;
+        width: 250px;
+        height: 90px;
     
     } 
     
-    .project_container button{
+    .buttons_container_responsive button{
 
-        height: 3.5vh;
-        width: 32vw;
+        height: 25px;
+        width: 120px;
         font-size: 3vw;
         padding: 4px 8px;
     } 

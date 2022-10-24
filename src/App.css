@@ -65,3 +65,52 @@ section{
   }
 
 }
+
+
+.swal2-container .Alert{
+
+  background-color: #161032;
+  border: 2px solid #5969fe;
+  /* box-shadow: 0 0 10px 2px #a2dae6; */
+  border-radius: 15px;
+  color: #f5f5f5;
+  outline: none;
+}
+
+.swal2-container .Alert .swal2-icon{
+
+  margin-top: 15px;
+}
+
+.swal2-container .Alert button{
+  border-radius: 15px;
+  border: none;
+  transition: transform 0.2s linear;
+}
+
+.swal2-container .Alert button:hover{
+
+  transform: scale(1.05);
+}
+
+.swal2-container .Alert .confirmButton{
+
+  background-color: #5969fe;
+}
+.swal2-container .Alert .denyButton{
+
+  background-color: #a2dae6;
+  color: black
+}
+
+.swal2-container .Alert.closeButton{
+
+  background-color: transparent;
+  color: #f5f5f5;
+  font-size: 25px;
+
+}
+
+.underline{
+  border-bottom: 2px solid #f5f5f5;
+}
