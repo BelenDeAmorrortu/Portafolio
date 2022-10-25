@@ -21,6 +21,7 @@ import Sequelize from '../img/Sequelize.png'
 import Postman from '../img/Postman.png'
 import RESTfulAPI from '../img/RESTfulAPI.png'
 import Mongo from '../img/Mongo.png'
+import Firebase from '../img/Firebase.png'
 
 
 export default function Languages(){
@@ -46,6 +47,7 @@ export default function Languages(){
             <Language name='PostgreSQL' img={PostgreSQL} />
             <Language name='Sequelize' img={Sequelize} />
             <Language name='Mongo DB' img={Mongo} />
+            <Language name='Firebase' img={Firebase} />
             <Language name='Postman' img={Postman} />
             <Language name='REST API' img={RESTfulAPI} />
         </div>
