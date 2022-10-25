@@ -12,7 +12,7 @@ export default function Projects(){
         <div className={style.projects_container} id='projects'>
 
             <div>
-                <Project name="Moviefy +" img={Moviefy} codeUrl={'https://www.google.com.ar/'} projectUrl={'https://hpfc.netlify.app/'} videoUrl={'https://drive.google.com/file/d/19ey-bygD9MnvCcw-gbhGIvLaGLZsv9G0/view'} alert={true} />
+                <Project name="Moviefy +" img={Moviefy} codeUrl={'https://github.com/BelenDeAmorrortu/PF-Henry-Front'} projectUrl={'https://hpfc.netlify.app/'} videoUrl={'https://drive.google.com/file/d/19ey-bygD9MnvCcw-gbhGIvLaGLZsv9G0/view'} alert={true} />
             </div>
 
             <div>
