@@ -26,7 +26,7 @@ export default function Nav(){
         
             </nav>
 
-            <button onClick={()=> window.open( 'https://github.com/BelenDeAmorrortu/Portafolio', '_blank')}>Portafolio's Code</button>
+            <button onClick={()=> window.open( 'https://github.com/BelenDeAmorrortu/Portafolio', '_blank')}>Portfolio's Code</button>
 
         </div>
     )
