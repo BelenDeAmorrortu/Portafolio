@@ -10,7 +10,9 @@ export default function Contact() {
 
         <div className={style.contact_container} id='contact'>
 
-            <p>Click to follow the link</p>
+            <p>Feel free to contact me if you are interested!</p>
+
+            <p className={style.twinkle}>Click to follow the link</p>
 
             <a href='https://github.com/BelenDeAmorrortu' target='_blank'>
             <div>
