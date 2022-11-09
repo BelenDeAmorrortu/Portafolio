@@ -10,13 +10,8 @@
 
 .about_container p{
 
-    font-size: 2vw;
-    margin-bottom: 6vh;
-}
-
-.about_container p:first-child{
-
-    margin-bottom: 0;
+    font-size: 23px;
+    margin-bottom: 5px;
 }
 
 .about_container p span{
@@ -31,6 +26,8 @@
    flex-direction: row;
    flex-wrap: wrap;
    justify-content: space-around;
+   min-height: 130px;
+   margin-top: 50px;
 
 }
 
@@ -69,6 +66,7 @@
     .description{
 
         flex-direction: column;
+        max-width: 100%;
         justify-content: space-around;
         align-content: center;
      
@@ -93,12 +91,17 @@
     
     .about_container p{
     
-        font-size: 5vw;
+        font-size: 4vw;
+        margin-bottom: 3vh;
+    }
+
+    .description{
+        margin-top: 0px;
     }
 
     .description div{
      
-        min-height: 9vh;
+        min-height: 6vh;
         width: 95%;
         margin: 2.5vh 0;
         box-shadow: -5px 5px 0 0 #5465ff;

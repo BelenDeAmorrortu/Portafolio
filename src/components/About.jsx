@@ -7,13 +7,14 @@ export default function About() {
 
         <div className={style.about_container}  id='about_me'>
 
-            <p>Hi! My name is <span>Belén</span>.</p>
-            <p>I am an argentinian <span>full stack developer</span> currently seeking a remote job in the tech industry.</p>
+            <p>Hi! My name is <span>Belén</span> and I am an argentinian <span>Full Stack Developer</span>.</p>
+            <p>For me coding is not just a source of work, but also a hobby.</p>
+            <p>I enjoy spending my evenings developing projects, learning new skills, and even refining the ones I already have.</p> 
 
             <div className={style.description}>
-                <div>Well organized</div>
+                <div>Problem solving</div>
                 <div>Detail-oriented</div>
-                <div>Constant drive to learn and grow professionally and personally</div>
+                <div>Autodidact</div>
             </div>    
         
         </div>
