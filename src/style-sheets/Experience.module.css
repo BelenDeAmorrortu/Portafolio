@@ -93,7 +93,7 @@
     text-align: center;
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 1000px) {
 
     .experience_container{
 
@@ -103,8 +103,8 @@
 
     .experience_container img{
 
-        width: 7vw;
-        height: 7vw;
+        width: 4vw;
+        height: 4vw;
 
     }
 
@@ -117,7 +117,7 @@
 
     .experience ul li{
 
-        font-size: 3vw;
+        font-size: 1.5vw;
         margin-bottom: 1vw;
     }
 
@@ -128,9 +128,8 @@
 
     .img_and_title h4{
 
-        font-size: 3.2vw;
+        font-size: 2vw;
     }
-
     
     .education{
 
@@ -152,19 +151,72 @@
 
     .education h4{
 
-        font-size: 3vw;
+        font-size: 1.5vw;
         text-align: left;
 
     }
 
     .education .title{
 
-        font-size: 4vw;
+        font-size: 2.3vw;
         text-align: center;
         padding: 0vw;
         margin: 1vw;
     }
-
-
     
+}
+
+@media screen and (max-width: 450px){
+    
+    .experience_container{
+
+        height: 100%;
+        justify-content: space-evenly;
+    }
+    .experience_container img{
+
+        width: 7vw;
+        height: 7vw;
+
+    }
+
+    .experience{
+
+        width: 100%;
+    }
+
+    .experience ul li{
+
+        font-size: 3vw;
+        margin-bottom: 1vw;
+    }
+
+    .experience ul{
+
+        margin-bottom: 6vh;
+    }
+
+    .img_and_title h4{
+
+        font-size: 3.2vw;
+    }
+
+    .education div{
+
+        margin-left: 7vw;
+
+    }
+
+    .education h4{
+
+        font-size: 3vw;
+
+    }
+
+    .education .title{
+
+        font-size: 4vw;
+        padding: 0vw;
+        margin: 1vw;
+    }
 }
