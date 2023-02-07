@@ -21,7 +21,6 @@ h3, p{
 
   width: 100vw;
   height: 100vh;
-
 }
 
 main{
@@ -33,7 +32,6 @@ main{
 
   overflow-y: scroll;
   scroll-snap-type: y mandatory;
-
 }
 
 section{
@@ -62,8 +60,7 @@ button:disabled{
   .App_container{
  
     display: flex;
-    flex-direction: column;
-         
+    flex-direction: column;     
   }
 
   main{
@@ -71,16 +68,14 @@ button:disabled{
     display: flex;
     flex-direction: column;
   }
-
 }
-
 
 .swal2-container .Alert{
 
   background-color: #161032;
-  border: 2px solid #5969fe;
+  border: 1px solid #5969fe;
   /* box-shadow: 0 0 10px 2px #a2dae6; */
-  border-radius: 15px;
+  border-radius: 10px;
   color: #f5f5f5;
   outline: none;
 }
@@ -91,7 +86,7 @@ button:disabled{
 }
 
 .swal2-container .Alert button{
-  border-radius: 15px;
+  border-radius: 10px;
   border: none;
   transition: transform 0.2s linear;
 }
@@ -110,13 +105,15 @@ button:disabled{
   background-color: #a2dae6;
   color: black
 }
-
-.swal2-container .Alert.closeButton{
+.swal2-container .Alert .closeButton{
 
   background-color: transparent;
-  color: #f5f5f5;
-  font-size: 25px;
+  color: #f5f5f5a8;
+  font-size: 35px;
+}
+.swal2-container .Alert .closeButton:hover{
 
+  color: #f5f5f5;
 }
 
 .underline{
