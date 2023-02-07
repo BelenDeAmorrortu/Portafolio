@@ -14,10 +14,4 @@
 - __CSS__
 - __SweetAlert2__
 
-## Run Project
-
-- Clone Repository by running the command _"git clone https://github.com/BelenDeAmorrortu/Portafolio.git"_ where you want your copy.
-- Run _"npm i"_ and then _"npm start"_ in file root.
-- Open http://localhost:3000/ on your browser.
-
 
