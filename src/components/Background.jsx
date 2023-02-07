@@ -9,43 +9,12 @@ export default function Background(){
 
             <div className={style.sparks} >
 
-                <span style={{"--i":11}}></span>
-                <span style={{"--i":14}}></span>
-                <span style={{"--i":17}}></span>
-                <span style={{"--i":13}}></span>
-                <span style={{"--i":20}}></span>
-                <span style={{"--i":15}}></span>
-                <span style={{"--i":16}}></span>
-                <span style={{"--i":12}}></span>
-                <span style={{"--i":18}}></span>
-                <span style={{"--i":21}}></span>
-                <span style={{"--i":30}}></span>
-                <span style={{"--i":24}}></span>
-                <span style={{"--i":22}}></span>
-                <span style={{"--i":23}}></span>
-                <span style={{"--i":15}}></span>
-                <span style={{"--i":27}}></span>
-                <span style={{"--i":26}}></span>
-                <span style={{"--i":29}}></span>
-                <span style={{"--i":14}}></span>
-                <span style={{"--i":12}}></span>
-                <span style={{"--i":13}}></span>
-                <span style={{"--i":17}}></span>
-                <span style={{"--i":15}}></span>
-                <span style={{"--i":20}}></span>
-                <span style={{"--i":18}}></span>
-                <span style={{"--i":21}}></span>
-                <span style={{"--i":19}}></span>
-                <span style={{"--i":24}}></span>
-                <span style={{"--i":22}}></span>
-                <span style={{"--i":23}}></span>
-                <span style={{"--i":28}}></span>
-                <span style={{"--i":26}}></span>
-                <span style={{"--i":25}}></span>
+                {[11,14,17,13,20,15,16,12,18,21,30,24,22,23,15,27,26,29,14,12,13,17,15,20,18,21,19,24,22,23,28,26,25].map( n =>{
+                    return <span style={{"--i": n }}></span>
+                })}
 
             </div>
-    
+            
         </div>
-
     )
 }

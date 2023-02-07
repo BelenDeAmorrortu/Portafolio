@@ -1,9 +1,7 @@
 import React from "react";
 import Project from "./Project.jsx";
 import style from '../style-sheets/Projects.module.css'
-import WeatherAppImg from '../img/WeatherApp.png'
-import Pokemon from '../img/Pokemon.png'
-import Moviefy from '../img/Moviefy.png'
+import {WeatherApp, Pokedex, Moviefy} from '../img/index'
 
 export default function Projects(){
 
@@ -16,11 +14,11 @@ export default function Projects(){
             </div>
 
             <div>
-                <Project name="Poke-dex" img={Pokemon} codeUrl={'https://github.com/BelenDeAmorrortu/Poke-dex'} projectUrl={'https://pokedex-belendeamorrortu.netlify.app'} />
+                <Project name="Poke-dex" img={Pokedex} codeUrl={'https://github.com/BelenDeAmorrortu/Poke-dex'} projectUrl={'https://pokedex-belendeamorrortu.netlify.app'} />
             </div>
 
             <div>
-                <Project name="Weather App" img={WeatherAppImg} codeUrl={'https://github.com/BelenDeAmorrortu/Weather-App'} projectUrl={'https://weather-app-belendeamorrortu.netlify.app/'} />
+                <Project name="Weather App" img={WeatherApp} codeUrl={'https://github.com/BelenDeAmorrortu/Weather-App'} projectUrl={'https://weather-app-belendeamorrortu.netlify.app/'} />
             </div>
 
             {/* PROJECTS IN PROGRESS

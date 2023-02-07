@@ -4,7 +4,7 @@ import Nav from './components/Nav.jsx'
 import Background from './components/Background.jsx'
 import GlassContainer from './components/GlassContainer';
 import Home from './components/Home';
-import Languages from './components/Languages.jsx';
+import Skills from './components/Skills.jsx';
 import Projects from './components/Projects';
 import { useInView } from 'react-intersection-observer';
 import About from './components/About';
@@ -39,7 +39,7 @@ function App() {
 
         <Home passRef={home}/>
         <GlassContainer title={'Projects'} content={<Projects />}  passRef={projects} />
-        <GlassContainer title={'Technical Skills & Tools'} content={<Languages />} passRef={techSkillsandTools} />
+        <GlassContainer title={'Technical Skills & Tools'} content={<Skills />} passRef={techSkillsandTools} />
         <GlassContainer title={'About Me'} content={<About />} passRef={aboutMe} />
         <GlassContainer title={'Experience'} content={<Experience />} id='experience' passRef={experience} />
         <GlassContainer title={'Contact'} content={<Contact />} id='contact' passRef={contact} />
