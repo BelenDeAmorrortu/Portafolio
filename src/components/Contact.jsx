@@ -10,7 +10,7 @@ export default function Contact() {
 
         <div className={style.contact_container} id='contact'>
 
-            <p>Feel free to contact me if you are interested! <span className={style.twinkle}>Click to follow the link</span></p>
+            <p>Feel free to contact me if you are interested!<br className={style.small}/> <span className={style.twinkle}>Click to follow the link</span></p>
 
             <div className={style.social}>
                 

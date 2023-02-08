@@ -14,13 +14,11 @@
 
     transform: scale(1.15);
     filter: drop-shadow(0 0 3px #5465ff);
-
 }
 
 .skill_container img{
 
     width: 4vw;
-
 }
 
 .skill_container h6{
@@ -40,14 +38,12 @@
     .skill_container img{
 
         width: 9vw;
-    
     }
 
     .skill_container h6{
         margin: 0.5vw;
         font-size: 2vw ;
     }
-    
 }
 
 
@@ -55,19 +51,17 @@
 
     .skill_container{
 
-        margin: 3.5vw;
+        margin: 3vw;
     }
 
     .skill_container img{
 
         width: 10vw;
-    
     }
 
     .skill_container h6{
         margin: 1vw;
         font-size: 3vw ;
-    }
-    
+    } 
 }
 

@@ -6,6 +6,7 @@
     justify-items: left;
     width: 100%;
     height: 100%;
+    top: -5vh;
 }
 
 .contact_container p{
@@ -91,6 +92,10 @@
     max-height: fit-content;
 }
 
+.contact_container .small{
+    display: none;
+}
+
 
 @media screen and (max-width: 800px) {
     
@@ -143,6 +148,13 @@
     .contact_container .social div p{
 
         font-size: 3.5vw;
+    }
+    .contact_container span.twinkle{
+
+        padding-left: 0px;
+    }
+    .contact_container .small{
+        display: inline;
     }
     .contact_container .social div img{
 

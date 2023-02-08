@@ -3,11 +3,11 @@
 
     width: 100%;
     height: 100%;
-
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-content: center;
+    top: -2vh;
 }
 
 .experience{
@@ -57,14 +57,12 @@
 .education{
 
     width: 27%;
-    height: 90%;
     background-color: #161032;
     border-radius: 20px;
     box-shadow: -7px 7px 0 0 #5465ff;
     border: 1px solid #5465ff;
     display: flex;
     flex-direction: column;
-
 }
 
 .education div{
@@ -73,7 +71,6 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-
 }
 
 .education .title{
@@ -104,14 +101,12 @@
 
         width: 4vw;
         height: 4vw;
-
     }
 
     .experience{
 
         width: 100%;
         height: fit-content;
-
     }
 
     .experience ul li{
@@ -138,21 +133,18 @@
         flex-direction: column;
         box-shadow: -5px 5px 0 0 #5465ff;
         top: -2vh;
-
     }
 
     .education div{
 
         margin-left: 7vw;
         width: fit-content;
-
     }
 
     .education h4{
 
         font-size: 1.5vw;
         text-align: left;
-
     }
 
     .education .title{
@@ -176,7 +168,7 @@
 
         width: 7vw;
         height: 7vw;
-
+        border-radius: 6px;
     }
 
     .experience{
@@ -203,13 +195,11 @@
     .education div{
 
         margin-left: 7vw;
-
     }
 
     .education h4{
 
         font-size: 3vw;
-
     }
 
     .education .title{
