@@ -1,9 +1,6 @@
 import React from 'react'
 import style from '../style-sheets/Experience.module.css'
-import Henry from '../img/Henry.png'
-import Amanecer from '../img/Escuela-Amanecer.png'
-import Cambridge from '../img/cambridge.jpg'
-import freeCodeCamp from '../img/freeCodeCamp.png'
+import {Henry, Cambridge, FreeCodeCamp, Hogarth} from '../img/index'
 
 export default function Experience() {
 
@@ -12,38 +9,33 @@ export default function Experience() {
         <div className={style.experience_container} id='experience'>
 
             <div className={style.experience}>
+                <div>
+                    <div className={style.img_and_title}>
+                        <img src={Hogarth} alt='Hogarth Logo'/>
+                        <h4>Front End Developer (Dec 2022 - Current)</h4>
+                    </div>
+                    <ul>
+                        <li>Hogarth - Full Time</li>
+                        <li>Development, maintenance and localization of websites for a leading client in the technological field.</li>
+                        <li>HTML, CSS, JavaScript, Apache, Slack, Microsoft Teams.</li>
+                    </ul>
+                </div>
 
                 <div>
                     <div className={style.img_and_title}>
                         <img src={Henry} alt='Henry Logo' />
-                        <h4>{'Henry Hero (Code Review Lecturer) - Current'}</h4>
+                        <h4>Code Review Lecturer (Sep - Nov 2022)</h4>
                     </div>
                     <ul>
+                        <li>Giving live lectures for more than 40 Henry Bootcamp applicants.</li>
                         <li>Explaining and analyzing different solutions to JavaScript, HTML and CSS exercises.</li>
                         <li>Answering doubts and questions about the homework.</li>
-                        <li>Organizing the lecture with fellow Henry Heroes</li>
                     </ul>
-
-                </div>
-
-                <div>
-
-                    <div className={style.img_and_title}>
-                        <img src={Amanecer} alt='Amanecer Kindergarten Logo'/>
-                        <h4>Kindergarten Auxiliary Teacher - Feb to Jul 2022</h4>
-                    </div>
-                    <ul>
-                        <li>At first covered a two week job for the summer programme, then was asked to stay permanently.</li>
-                        <li>Helped simplify daily basis activities, which resulted in a more fluent routine for the children and other colleagues.</li>
-                        <li>Accompanied children based on their needs.</li>
-                    </ul>
-
                 </div>
 
             </div>
 
             <div className={style.education}>
-
                 <h4 className={style.title}>Education</h4>
 
                 <div>
@@ -57,12 +49,11 @@ export default function Experience() {
                 </div>
 
                 <div>
-                    <img src={freeCodeCamp} alt='freeCodeCamp Logo' />
+                    <img src={FreeCodeCamp} alt='freeCodeCamp Logo' />
                     <h4>JavaScript Algorithms and Data Structures</h4>
                 </div>
-
             </div>
-        
+    
         </div>
     )
 }
