@@ -12,10 +12,11 @@ export default function Experience() {
                 <div>
                     <div className={style.img_and_title}>
                         <img src={Hogarth} alt='Hogarth Logo'/>
-                        <h4>Front End Developer (Dec 2022 - Current)</h4>
+                        <h4>Front End Developer (Dec 2022 - Current)
+                            <br/><span>Hogarth - Full time</span>
+                        </h4>
                     </div>
                     <ul>
-                        <li>Hogarth - Full Time</li>
                         <li>Development, maintenance and localization of websites for a leading client in the technological field.</li>
                         <li>HTML, CSS, JavaScript, Apache, Slack, Microsoft Teams.</li>
                     </ul>
@@ -24,7 +25,9 @@ export default function Experience() {
                 <div>
                     <div className={style.img_and_title}>
                         <img src={Henry} alt='Henry Logo' />
-                        <h4>Code Review Lecturer (Sep - Nov 2022)</h4>
+                        <h4>Code Review Lecturer (Sep - Nov 2022)
+                            <br /><span>Henry</span>
+                        </h4>
                     </div>
                     <ul>
                         <li>Giving live lectures for more than 40 Henry Bootcamp applicants.</li>
