@@ -1,7 +1,5 @@
 import React from 'react'
-import Github from '../img/GitHub.png'
-import Email from '../img/Email.png'
-import LinkedIn from '../img/LinkedIn.png'
+import {GitHub, Email, LinkedIn} from '../img/index'
 import style from '../style-sheets/Contact.module.css'
 
 export default function Contact() {
@@ -15,7 +13,7 @@ export default function Contact() {
             <div className={style.social}>
                 
                 <a href='https://github.com/BelenDeAmorrortu' target='_blank'><div>
-                    <img src={Github} alt='Github Logo' />
+                    <img src={GitHub} alt='Github Logo' />
                     <p>BelenDeAmorrortu</p>
                 </div></a>
                 

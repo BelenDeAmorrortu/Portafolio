@@ -1,6 +1,6 @@
 import React from "react";
 import style from '../style-sheets/Home.module.css'
-import Foto from '../img/Foto.jpeg'
+import {Portrait} from '../img/index'
 
 export default function Home({passRef}){
 
@@ -11,9 +11,7 @@ export default function Home({passRef}){
 
             <div className={style.home}>
 
-
-                {/* <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCrXxFLXgIfd93CbRazceWHSB8f4fTWYkTPDIE9Pv79huTINOEVN2A62c9t7NHBxGN2Fg&usqp=CAU" alt="Foto Belén de Amorrortu" /> */}
-                <img src={Foto} />
+                <img src={Portrait} />
 
                 <h1>{ `< / Full Stack Developer >` }</h1>
 
