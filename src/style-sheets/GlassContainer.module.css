@@ -1,6 +1,6 @@
 
 .glass_container{
-    
+
     display: flex;
     flex-direction: column;
     overflow: hidden;
@@ -32,7 +32,19 @@
     position: relative;
 }
 
-.glass_container h3{
+.glass_container .title{
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    height: fit-content;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 3vh;
+}
+
+.glass_container .title h3{
 
     color: #a2dae6;
     display: block;
@@ -40,7 +52,49 @@
     font-stretch: extra-expanded;
     font-size: 2.5vw;
     text-align: left;
-    margin-bottom: 0;
+    margin: 0;
+}
+
+.glass_container .title h3 img{
+
+    width: 2vw;
+    position: relative;
+    bottom: -2px;
+}
+
+.glass_container .title h3 span:hover{
+
+    cursor: pointer;
+    text-shadow: 0 0 5px #5465ff;
+}
+
+.glass_container .title button{
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: transparent;
+    color: #a2dae6;
+    height: fit-content;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 0;
+    font-size: 18px;
+    font-stretch: extra-expanded;
+    transition: 0.2s linear;
+}
+
+.glass_container .title button:hover{
+    
+    transform: scale(1.06);
+    filter: drop-shadow(0 0 0.5px #5465ff);
+}
+
+.glass_container .title button img{
+
+    width: 16px;
+    margin: 0 5px;
 }
 
 .glass_container hr{
@@ -53,18 +107,41 @@
     margin-bottom: 3vh;
 }
 
+
 @media screen and (max-width: 800px) {
 
-    .glass_container h3{
+    .glass_container .title h3{
 
         font-size: 4.5vw;
     } 
+    .glass_container .title h3 img{
+
+        width: 4vw;
+        bottom: -4px;
+    }
 }
 
 @media screen and (max-width: 450px) {
 
-    .glass_container h3{
+    .glass_container .title h3{
 
         font-size: 6vw;
-    }   
+    }
+    .glass_container .title h3{
+
+        font-size: 5vw;
+    }
+    .glass_container .title h3 img{
+
+        width: 4.5vw;
+        bottom: -3px;
+    } 
+    .glass_container .title button{
+
+        font-size: 16px;
+    } 
+    .glass_container .title button img{
+
+        width: 14px;
+    }
 }

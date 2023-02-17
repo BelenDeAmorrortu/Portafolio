@@ -1,0 +1,147 @@
+
+.project_detail{
+
+    min-width: 60vw;
+    width: 60vw;
+    height: 70vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: -4vh;
+}
+
+.project_detail .content{
+
+    width: 34vw; 
+    height: fit-content;
+}
+
+.project_detail .player{
+
+    width: 100%; 
+    border-radius: 10px;  
+    overflow: hidden;
+}
+
+.project_detail .content .buttons{
+
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 3vh;
+}
+
+.project_detail .content .buttons h4{
+
+    color: #f5f5f5;
+    font-weight: 300;
+}
+
+.project_detail .content .buttons button{
+
+    height: fit-content;
+    background-color: transparent;
+    border-radius: 10px;
+    padding: 10px 20px;
+    border: 2px solid #5465ff;
+    outline: none;
+    color: #f5f5f5;
+    font-size: 1vw;
+    display: flex;
+    align-items: center;
+    transition: background 0.2s linear;
+}
+
+.project_detail .content .buttons button:hover{
+
+    background-color: #5465ff;
+}
+
+.project_detail .content .buttons button img{
+
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+.project_detail .about{
+
+    width: 22vw;
+}
+
+.project_detail .about h4{
+
+    color: #5465ff;
+    text-shadow: -2px 1px 0px #161032;
+    margin: 5px 0;
+    text-align: left;
+}
+
+.project_detail .about p{
+
+    color: #f5f5f5;
+    margin: 10px 0;
+    text-align: justify;
+}
+
+@media screen and (max-width: 800px) {
+
+    .project_detail{
+        width: 85vw;
+    }
+    .project_detail .content{
+        width: 42vw; 
+    }
+    .project_detail .about{
+        width: 35vw;
+    }
+    .project_detail .about p{
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+
+    .project_detail{
+        flex-direction: column;
+        margin-top: -5vh;
+        height: 65vh !important;
+    }
+    .project_detail .content{
+        width: 85vw;
+        justify-content: space-between;
+    }
+    .project_detail .player{
+        height: 20vh;
+    }
+    .project_detail .about{
+        width: 85vw;
+    }
+    .project_detail .about h4{
+        font-size: 14px;
+    }
+    .project_detail .content .buttons{
+        margin-top: 5px;
+    }
+    .project_detail .content .buttons h4{
+        font-size: 3.5vw;
+    }
+    .project_detail .content .buttons button{
+        height: fit-content;
+        width: fit-content;
+        border-radius: 8px;
+        padding: 5px 10px;
+        font-size: 2.8vw;
+    }
+    .project_detail .content .buttons button img{
+        width: 15px;
+        height: 15px;
+        margin-right: 5px;
+    }
+    .project_detail .about p{
+        font-size: 12px;
+    }
+}

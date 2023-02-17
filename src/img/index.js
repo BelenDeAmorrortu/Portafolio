@@ -16,9 +16,10 @@ import Less from './Less.png'
 import LinkedIn from './LinkedIn.png'
 import Mongo from './Mongo.png'
 import Moviefy from './Moviefy.png'
+import Moviefy2 from './Moviefy2.png'
 import NodeJS from './NodeJS.png'
-import pokedex_detail from './Pokedex detail.png'
 import Pokedex from './Pokemon.png'
+import Pokedex2 from './Pokedex2.png'
 import PostgreSQL from './Postgresql.png'
 import Postman from './Postman.png'
 import ReactIMG from './React.png'
@@ -29,6 +30,12 @@ import Sequelize from './Sequelize.png'
 import VS_Code from './VSCode.png'
 import WeatherApp from './WeatherApp.png'
 import Hogarth from './Hogarth..webp'
+import StudyAdvisor from './StudyAdvisor.png'
+import StudyAdvisor2 from './StudyAdvisor2.png'
+import Portrait from './Foto.jpeg'
+import Website from './website.png'
+import Chevron from './chevron.svg'
+import ChevronLeft from './chevron left.svg'
 
 export {
     Bootstrap,
@@ -49,9 +56,10 @@ export {
     LinkedIn,
     Mongo,
     Moviefy,
+    Moviefy2,
     NodeJS,
     Pokedex,
-    pokedex_detail,
+    Pokedex2,
     Postman,
     PostgreSQL,
     ReactIMG,
@@ -61,6 +69,11 @@ export {
     Sequelize,
     VS_Code,
     WeatherApp,
-    Hogarth
-
+    Hogarth,
+    StudyAdvisor,
+    StudyAdvisor2,
+    Portrait,
+    Website,
+    Chevron,
+    ChevronLeft
 }

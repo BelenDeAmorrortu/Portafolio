@@ -3,15 +3,12 @@
 
     width: 100%;
     height: 100% ;
-
     display: flex;
-
     flex-direction: column;
     justify-items: center;
     align-items: center;
     color: #5465ff;
     transition: all 0.2s linear;
-
 }
 
 .project_container:hover{
@@ -23,7 +20,6 @@
 
 .project_container h4{
 
-    /* font-size: 1.3vw; 4 projects*/
     font-size: 1.6vw;
     margin: 0;
     padding: 2%;
@@ -31,16 +27,14 @@
 
 .project_container .image_container{
 
-    /* width: 65%;  4 projects*/
     width: 340px;
-    /* height: 20vh; 4 projects*/
     height: 160px;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     display: flex;
     border-radius: 10px;
-
+    transition: background 0.4s linear;
 }
 
 .project_container .buttons_container{
@@ -51,7 +45,6 @@
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
-
     background-color: #161032be;
     border-radius: 10px;
     opacity: 0;
@@ -72,6 +65,7 @@
     color: #fff;
     padding: 6px 20px;
     height: 5vh;
+    width: 40%;
     font-size: 1vw;
     transition: background 0.1s linear;
 }
@@ -88,77 +82,53 @@
 
 .buttons_container_responsive{
 
-    visibility: hidden;
+    display: none;
 }
 
 @media screen and (max-width: 800px) {
-
-    /*  4 projects
-    .project_container .image_container{
-
-        width: 80%;
-    
-    } */
 
     .project_container button{
 
         font-size: 1.7vw;
     }
-    
     .project_container h4{
     
         font-size: 3vw;
-    }
-    
-    
+    }  
 }
 
 @media screen and (max-width: 450px){
 
-    .buttons_container{
+    .project_container .buttons_container{
 
-        visibility: hidden;
+        display: none;
     }
-
     .buttons_container_responsive{
 
-        visibility: visible;
-        width: 250px;
         display: flex;
+        width: 250px;
         flex-direction: row;
         justify-content: space-between;
         align-items: center;
     }
-
-    /*  When there are 4 projects
-
-    .project_container button{
-
-        height: 3.5vh;
-        font-size: 2.3vw;
-        padding: 0px 8px;
-    } */
-
     .project_container .image_container{
 
         width: 250px;
         height: 90px;
-    
     } 
-    
     .buttons_container_responsive button{
 
         height: 25px;
-        width: 120px;
+        width: 48%;
         font-size: 3vw;
         padding: 4px 8px;
-    } 
+    }
+    .buttons_container_responsive button.onlyChild{
 
+        width: 100%;
+    } 
     .project_container h4{
     
         font-size: 4vw;
     }
-
-
-    
 }
