@@ -18,7 +18,7 @@ export default function Experience() {
                     </div>
                     <ul>
                         <li>Development, maintenance and localization of websites for a leading client in the technological field.</li>
-                        <li>HTML, CSS, JavaScript, Apache, Slack, Microsoft Teams.</li>
+                        <li>HTML, CSS, JavaScript, Apache, Microsoft Teams.</li>
                     </ul>
                 </div>
 
