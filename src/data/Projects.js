@@ -24,7 +24,7 @@ const projects = [
         <p>Study Advisor is an e-learning website which provides different tools such as a Calendar, a Summary Editor and a Flash Card Generator for each user to find the most efficient way to carry out their studies and learn new concepts.</p>
         </>,
         features:'Real time collaborative Summary Editor - Flash Card Generator - Calendar - Dark/Light Mode - User authentication and authorization',
-        technologies: 'React - React Router Dom - Redux - Socket.io - Mongo Db - Mongoose  Node.js  Express.js - Sass - Firebase - SweetAlert2'
+        technologies: 'React - React Router Dom - Redux - Socket.io - Mongo Db - Mongoose - Node.js - Express.js - Sass - Firebase - SweetAlert2'
     },
     {
         name: 'Poke-dex',
