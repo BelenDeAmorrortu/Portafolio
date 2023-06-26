@@ -1,4 +1,4 @@
-# Personal Portafolio
+# Personal Portfolio
 
 <p>💻 Website: <a href="https://belendeamorrortu.netlify.app/" target="_blanck">belendeamorrortu.netlify.app/<a/><p/>
 
